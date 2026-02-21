@@ -1,0 +1,8 @@
+{
+    "tile_width": 400,
+    "tile_height": 550,
+    "visible_count": 5,
+    "left_margin": 100,
+    "spacing_big": 60,
+    "spacing_small": 20
+}

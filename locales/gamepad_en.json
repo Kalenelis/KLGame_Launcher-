@@ -1,0 +1,21 @@
+{
+    "window_title": "Gamepad Combo Configurator",
+    "tray_tooltip": "Gamepad Manager",
+    "tray_show": "Show",
+    "tray_hide": "Hide",
+    "tray_restart": "Restart Listener",
+    "tray_exit": "Exit",
+    "config_saved": "Configuration saved.",
+    "config_save_error": "Failed to save: {}",
+    "record_combo_title": "Record Combo",
+    "record_combo_instruction": "Press the desired buttons on your gamepad...\nRecording will stop 2 seconds after the last press.",
+    "action_name_placeholder": "Action name",
+    "combo_not_set": "<not set>",
+    "record_button": "Record",
+    "delete_button": "X",
+    "add_action_button": "Add Action",
+    "save_button": "Save",
+    "help_button": "Help",
+    "help_title": "Help - Available Actions",
+    "help_text": "<b>Available Actions:</b><br><ul><li><b>launch_on_monitor</b> – Launch the launcher (if not running) and move it to the specified monitor (requires monitor index).</li><li><b>move_to_next_monitor</b> – Move the launcher window to the next monitor (cyclic).</li><li><b>minimize</b> – Minimize the launcher window.</li><li><b>close</b> – Close the launcher window.</li></ul><b>General Instructions:</b><br><ul><li>To record a combo, click \"Record\" and press the desired buttons on your gamepad. Recording stops automatically after 2 seconds of inactivity.</li><li>You can add multiple actions. Each action has a name, a combo, and an action type.</li><li>After editing, click \"Save\" to apply changes. The listener will restart automatically.</li><li>The program runs in the system tray. Use the tray icon menu to show/hide the configurator or exit.</li></ul>"
+}

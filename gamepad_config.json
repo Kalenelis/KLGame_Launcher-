@@ -1,0 +1,25 @@
+{
+    "launcher_path": "C:\\Users\\Kalen\\Desktop\\GL\\GL.py",
+    "window_title": "Game Launcher",
+    "controller_index": 0,
+    "actions": [
+        {
+            "name": "Launch on main monitor",
+            "combo": [
+                1,
+                7
+            ],
+            "action": "launch_on_monitor",
+            "monitor_index": 0
+        },
+        {
+            "name": "Launch on TV",
+            "combo": [
+                2,
+                7
+            ],
+            "action": "launch_on_monitor",
+            "monitor_index": 1
+        }
+    ]
+}

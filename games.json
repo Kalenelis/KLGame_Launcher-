@@ -1,0 +1,110 @@
+{
+  "Need for Speed Hot Pursuit Remastered": {
+    "name": "Need for Speed Hot Pursuit Remastered",
+    "exe_path": "E:/Games/Need for Speed Hot Pursuit Remastered/NFS11Remastered.exe",
+    "monitor_profiles": {
+      "monitor_0": {
+        "monitor_id": "0",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_1": {
+        "monitor_id": "1",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_2": {
+        "monitor_id": "2",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      }
+    },
+    "icon_path": "C:\\Users\\Kalen\\Desktop\\GLL\\game_icons\\0e68ed8e3b9f45a58dd52a3f9e5332b0.png",
+    "poster_path": "C:\\Users\\Kalen\\Desktop\\GLL\\game_icons\\0e68ed8e3b9f45a58dd52a3f9e5332b0_poster.png",
+    "play_time": "0h"
+  },
+  "RoadCraft": {
+    "name": "RoadCraft",
+    "exe_path": "C:/Games/RoadCraft/root/bin/pc/Roadcraft.exe",
+    "monitor_profiles": {
+      "monitor_0": {
+        "monitor_id": "0",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_1": {
+        "monitor_id": "1",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_2": {
+        "monitor_id": "2",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      }
+    },
+    "icon_path": "C:\\Users\\Kalen\\Desktop\\GLL\\game_icons\\bc8bda745e4f005bc59ebd15a286f518.png",
+    "poster_path": "C:\\Users\\Kalen\\Desktop\\GLL\\game_icons\\bc8bda745e4f005bc59ebd15a286f518_poster.png",
+    "play_time": "0h"
+  },
+  "Mafia3 Definitive Edition": {
+    "name": "Mafia3 Definitive Edition",
+    "exe_path": "E:/Games/Mafia III/Mafia3DefinitiveEdition.exe",
+    "monitor_profiles": {
+      "monitor_0": {
+        "monitor_id": "0",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_1": {
+        "monitor_id": "1",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_2": {
+        "monitor_id": "2",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      }
+    },
+    "icon_path": "C:\\Users\\Kalen\\Desktop\\GLL\\game_icons\\f51d7d03bd7fad225d5e1e0025ba3ff1.png",
+    "poster_path": "C:\\Users\\Kalen\\Desktop\\GLL\\game_icons\\f51d7d03bd7fad225d5e1e0025ba3ff1_poster.png",
+    "play_time": "0h"
+  },
+  "Cyberpunk 2077": {
+    "name": "Cyberpunk 2077",
+    "exe_path": "E:/Games/Cyberpunk.2077.GOG.Rip-InsaneRamZes/Cyberpunk 2077/bin/x64/Cyberpunk2077.exe",
+    "icon_path": "",
+    "poster_path": "C:/Users/Kalen/Desktop/1/RClibrary_600x900.jpg",
+    "play_time": "0h",
+    "monitor_profiles": {
+      "monitor_0": {
+        "monitor_id": "0",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_1": {
+        "monitor_id": "1",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      },
+      "monitor_2": {
+        "monitor_id": "2",
+        "fps_limit": 0,
+        "fps_method": "auto",
+        "configs": []
+      }
+    }
+  }
+}

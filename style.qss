@@ -1,0 +1,122 @@
+/* style.qss */
+
+/* Base */
+#Root { background: #0f1214; }
+#Content { background: transparent; }
+
+QLabel { color: rgba(240,240,245,0.92); }
+
+/* ===== Top bar: only bottom separator line ===== */
+QFrame#TopBar {
+    background: rgba(15, 18, 20, 0.92);
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+    border-radius: 0px;
+}
+
+QLabel#Logo {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: rgba(245,245,250,0.95);
+}
+
+/* Tabs (center) */
+QPushButton#TabButton {
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 14px;
+    color: rgba(220,220,230,0.78);
+    font-weight: 700;
+    min-width: 78px;
+}
+
+QPushButton#TabButton:hover {
+    background-color: rgba(255,255,255,0.06);
+    color: rgba(245,245,255,0.92);
+}
+
+QPushButton#TabButton:checked {
+    background-color: rgba(90, 170, 255, 0.16);
+    border: 1px solid rgba(140, 200, 255, 0.45);
+    color: rgba(245,250,255,0.98);
+}
+
+/* Right actions */
+QPushButton#TopButton {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 10px;
+    padding: 7px 12px;
+    color: rgba(240,240,250,0.90);
+    font-weight: 700;
+}
+
+QPushButton#TopButton:hover {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(140, 200, 255, 0.25);
+}
+
+/* Grid/list */
+QScrollArea#GridScroll { background: transparent; }
+QWidget#GridContainer { background: transparent; }
+
+QListWidget#GameList {
+    background-color: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 12px;
+    padding: 6px;
+}
+
+QListWidget#GameList::item {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+QListWidget#GameList::item:selected {
+    background-color: rgba(90, 170, 255, 0.18);
+    border: 1px solid rgba(140, 200, 255, 0.45);
+}
+
+/* ===== Profile overlay panel/buttons ===== */
+QFrame#profilePanel {
+    background-color: rgba(10, 14, 20, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+}
+
+/* profile buttons (monitor buttons) */
+QPushButton#profileButton {
+    background-color: rgba(20, 28, 40, 0.92);
+    border: 1px solid rgba(140, 200, 255, 0.28);
+    border-radius: 14px;
+    padding: 8px 12px;         /* <-- компактнее */
+    color: #eaf6ff;
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 44px;
+}
+
+QPushButton#profileButton:hover {
+    background-color: rgba(30, 42, 62, 0.96);
+    border: 1px solid rgba(160, 220, 255, 0.85);
+}
+
+/* secondary buttons (Configure/Delete) */
+QPushButton#secondaryButton {
+    background-color: rgba(90, 95, 110, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 14px;
+    padding: 8px 10px;         /* <-- компактнее, чтобы влезало 2 в ряд */
+    color: #f2f6ff;
+    font-size: 13px;
+    font-weight: 700;
+    min-height: 44px;
+    min-width: 0px;            /* <-- важно, чтобы Qt мог ужимать */
+}
+
+QPushButton#secondaryButton:hover {
+    background-color: rgba(110, 115, 130, 0.70);
+    border: 1px solid rgba(160, 220, 255, 0.40);
+}
